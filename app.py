@@ -33,7 +33,7 @@ if user_input:
                         unsafe_allow_html=True
                     )
 
-                    # Make title a clickable link
+                    # Make title a clickable link 
                     st.markdown(
                         f"[**{row['title'].title()}**]({row['anime_url']}) — Similarity Score: `{row['score']:.3f}`"
                     )
